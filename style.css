@@ -46,6 +46,8 @@ header nav img{
     margin-left: 70px;
     gap: 15px;
 }
+
+
 #banniere {
     display: flex;
     align-items: center;
@@ -94,6 +96,7 @@ header nav img{
     justify-content: flex-end
 }
 
+
 #promesses {
         display: flex;
     flex-direction: column;
@@ -130,10 +133,171 @@ margin-left: 50px;
     justify-content: flex-start;
 }
 
-
-/*.promesseslist li::before {
+.promesseslist li::before {
     content: "✔";
     margin: 20px;
 }
 
+.titreservice{
+align-items: center;
+padding-top: 50px;
+margin-bottom: 40px;
+font-weight: 80px;
+font-size: 40px;
+}
+
+#sectionservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8935C;
+    gap: 50px
+}
+
+.groupe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .article {
+display: flex;
+flex-direction: column;
+margin: 20px;
+background: white;
+width: 20vw;
+font-size: 12px;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    gap: 20pxs;
+   margin-bottom: 10px;
+   object-fit: cover;
+   height: 160px;
+}
+
+.article h3 {
+    font-weight: bold;
+    color: black;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.article p{
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div #sectonservices{
+padding: 10px;
+}
+.boutonservices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8935C;
+   padding: 16px;
+   margin: 16px;
+}
+.sectionchocolat {
+    display: block;
+}
+.chocolat {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.chocolat img{
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 50px;
+}
+.chocolat h3 {
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 10px;
+    font-weight: 10px;
+font-size: 30px;
+
+}
+.chocolattext {
+    display: flex;
+    flex-direction: column;
     
+}
+.sectionchocolat h2 {
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 80px;
+font-size: 40px;
+margin: 20px;
+}
+
+.chocolat2
+{
+        display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+#avis{
+    padding: 60px 20px;
+    background-color: #D8935C ;
+}
+
+#avis h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: 80px;
+    font-size: 40px;
+}
+
+.aviscontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.articlesavis{
+    background-color: #ffe3cd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+.profilclient p{
+    font-size: 15px;
+    color: #2E2A26;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 10px;
+}
+.profilclient img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   object-fit: cover;
+   
+
+}
+.aboutclient {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
