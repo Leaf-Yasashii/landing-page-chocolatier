@@ -246,21 +246,22 @@ margin: 20px;
     flex-direction: row-reverse;
     align-items: center;
     margin-left: 50px;
+    
 }
-
 
 #avis{
     padding: 60px 20px;
     background-color: #D8935C ;
+
 }
 
-#avis h1{
+#avis h2{
     display: flex;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 70px;
     font-weight: 80px;
-    font-size: 40px;
+font-size: 40px;
 }
 
 .aviscontainer{
@@ -269,35 +270,101 @@ margin: 20px;
     gap: 30px;
 }
 
-.articlesavis{
-    background-color: #ffe3cd;
+.avistemoignages{
+    background-color: #6B3E2E;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px;
 }
 
-.profilclient p{
-    font-size: 15px;
-    color: #2E2A26;
-    margin-bottom: 20px;
+.avistemoignages p{
+    font-size: 16px;
+    margin-bottom: 10px;
     width: 300px;
-    margin-left: 10px;
+    margin-left: 50px;
+    color: black;
+
+
 }
-.profilclient img{
-   width: 70px;
-   height: 70px;
+
+.aboutclient{
+   display: flex;
+   align-items: center;
+   margin-left: 50px;
+   
+}
+
+.aboutclient img{
+   width: 60px;
+   height: 60px;
    border-radius: 50%;
    object-fit: cover;
-   
+}
 
-}
-.aboutclient {
+.infoclient{
     display: flex;
     flex-direction: column;
 }
-.name {
+
+.achat{
+    font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8b4f00 ;
+    padding: 200px;
+    gap: 40px;
+}
+
+.contact h2 {
+    color: black;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact p {
+    font-size: 19px;
+    color: black;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#reseaux img {
+    object-fit: cover;
+    width: 40px;
+    padding: 10px;
+    
+}
+.listrenseignements {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.champs input, .champ textarea{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 15px;
+    background-color: #ffcda4;
+    margin: 20px;
+    border: none;
+    width: 300px;
+}
+.boutonfooter {
+    display: flex;
+    width: fit-content;
+    margin: 20px;
 }
